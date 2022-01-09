@@ -1,0 +1,6 @@
+2022-01-08 23:50:40.535 [main][5110] INFO  step_definitions.Hooks - Launch Chrome Browser
+2022-01-08 23:51:07.403 [main][31978] INFO  step_definitions.UsBankLocationsSteps - User is on US BANK Website
+2022-01-08 23:51:08.144 [main][32719] INFO  step_definitions.UsBankLocationsSteps - User clicks on locations link to navigate to search locations page
+2022-01-08 23:51:09.229 [main][33804] INFO  step_definitions.UsBankLocationsSteps - User type zip code in search box and press ENTER
+2022-01-08 23:51:09.229 [main][33804] INFO  step_definitions.UsBankLocationsSteps - User sees all nearby locations in result
+2022-01-08 23:51:09.229 [main][33804] INFO  step_definitions.Hooks - Close Chrome Browser

@@ -1,0 +1,5 @@
+2022-01-08 18:03:23.504 [main][13258] INFO  step_definitions.Hooks - Launch Chrome Browser
+2022-01-08 18:03:51.012 [main][40766] INFO  step_definitions.UsBankSearchSteps - User lands on the US Bank Web site
+2022-01-08 18:03:57.409 [main][47163] INFO  step_definitions.UsBankSearchSteps - Use types in search field to search
+2022-01-08 18:03:57.409 [main][47163] INFO  step_definitions.UsBankSearchSteps - User is on the search result page
+2022-01-08 18:03:57.412 [main][47166] INFO  step_definitions.Hooks - Close Chrome Browser

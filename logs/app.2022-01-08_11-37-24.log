@@ -1,0 +1,12 @@
+2022-01-08 23:37:33.771 [main][11487] INFO  step_definitions.Hooks - Launch Chrome Browser
+2022-01-08 23:37:44.476 [main][22192] INFO  step_definitions.UsBankLocationsSteps - User is on US BANK Website
+2022-01-08 23:37:59.922 [main][37638] ERROR command_providers.ElementActions - Element Exception for the locator By.xpath: //A[@href='/search.html'][text()='Locations']and exception is : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//A[@href='/search.html'][text()='Locations']"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NIBIRSPC', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Nibir54\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53021}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 674781bc23f786cb15cd8c69dd5380ed
+*** Element info: {Using=xpath, value=//A[@href='/search.html'][text()='Locations']}
+2022-01-08 23:37:59.938 [main][37654] INFO  step_definitions.Hooks - Close Chrome Browser

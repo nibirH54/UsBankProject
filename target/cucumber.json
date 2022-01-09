@@ -1,0 +1,174 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-09T05:11:28.512Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4708846200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Check user can find locations feature",
+        "description": "",
+        "id": "check-user-can-successfully-find-locations;check-user-can-find-locations-feature",
+        "after": [
+          {
+            "result": {
+              "duration": 893385500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.closeBrowse()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27026677700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "a user is on US Bank home page",
+            "match": {
+              "location": "step_definitions.UsBankLocationsSteps.userLandsOnUsBankWebSie()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 897836700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user clicks on location link on the webpage",
+            "match": {
+              "location": "step_definitions.UsBankLocationsSteps.clickOnLocationLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6605742900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters zip code in find nearby location search field",
+            "match": {
+              "location": "step_definitions.UsBankLocationsSteps.typeSearchBox()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1342500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user can all nearby banks from the given zip code",
+            "match": {
+              "location": "step_definitions.UsBankLocationsSteps.viewNearbyLocations()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Check user can successfully find locations",
+    "description": "",
+    "id": "check-user-can-successfully-find-locations",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/UsBankLocations.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-09T05:12:08.732Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3053240700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Check search field features",
+        "description": "",
+        "id": "check-search-field-shows-accurate-results;check-search-field-features",
+        "after": [
+          {
+            "result": {
+              "duration": 777477800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.closeBrowse()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25660855200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "a user is on US Bank Website",
+            "match": {
+              "location": "step_definitions.UsBankSearchSteps.userEntersUsBankWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7676203100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user types inside search field",
+            "match": {
+              "location": "step_definitions.UsBankSearchSteps.typeInSearchField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 282800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user lands on results page for intended search",
+            "match": {
+              "location": "step_definitions.UsBankSearchSteps.userLandsOnResultsPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Check search field shows accurate results",
+    "description": "",
+    "id": "check-search-field-shows-accurate-results",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/UsBankSearch.feature",
+    "tags": []
+  }
+]
